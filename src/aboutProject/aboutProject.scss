@@ -1,0 +1,80 @@
+.containerBackground {
+  background-image: url("http://localhost:3000/images/background.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #091029;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  .greeting {
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+    margin-top: 30vh;
+    margin-left: 20vw;
+  }
+
+  .converterBlock {
+    display: flex;
+    background: #fff;
+    width: 30vw;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 30vw;
+    padding: 2vw;
+    border-radius: 10px;
+    margin-top: 20vh;
+    margin-left: 10vw;
+    .titleConverter {
+      text-align: center;
+      font-size: 2vw;
+    }
+    .result {
+      text-align: center;
+      font-size: 1.5vw;
+    }
+    .selection {
+      position: relative;
+      select {
+        display: block;
+        width: 100%;
+        padding: 0.75rem 2rem 0.75rem 1rem;
+        background: none;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        appearance: none;
+        -webkit-appearance: none;
+        &:focus {
+          outline: 0;
+          border-color: #0891e6;
+        }
+      }
+      &:after {
+        content: "";
+        display: block;
+        border-style: solid;
+        border-width: 6px 5px 0 5px;
+        border-color: #000000 transparent transparent transparent;
+        position: absolute;
+        top: 50%;
+        right: 2vw;
+        z-index: 1;
+        pointer-events: none;
+      }
+    }
+    input {
+      width: 100%;
+      padding: 0.5rem 2rem 0.5rem 1rem;
+      border: 1px solid #cecece;
+      border-radius: 8px;
+      &:focus {
+        outline: 0;
+        border-color: #0891e6;
+      }
+    }
+  }
+}
