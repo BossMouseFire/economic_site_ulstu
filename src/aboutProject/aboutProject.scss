@@ -1,41 +1,109 @@
 .containerBackground {
-  background-image: url("http://localhost:3000/images/background.png");
-  background-size: cover;
-  background-attachment: fixed;
-  background-color: #091029;
-  width: 100vw;
-  height: 100vh;
-  position: absolute;
-  top: 0;
-  left: 0;
   display: flex;
   flex-direction: row;
-  .greeting {
-    text-align: center;
-    color: white;
-    font-size: 3vw;
-    margin-top: 30vh;
-    margin-left: 20vw;
+  margin-top: 12vh;
+  justify-content: center;
+  @media screen and (max-width: 768px) {
+    flex-direction: column-reverse;
+    align-items: center;
   }
-
+  .contanerStartText {
+    font-family: "JetBrains Mono";
+    color: white;
+    font-size: 1.5vw;
+    width: 40vw;
+    margin-left: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @media screen and (max-width: 768px) {
+      width: 80vw;
+      font-size: 3vw;
+    }
+    @media screen and (max-width: 480px) {
+      width: 85vw;
+      font-size: 4.8vw;
+      p {
+        &:nth-child(2) {
+          margin-bottom: 3vh;
+        }
+      }
+    }
+    .greeting {
+      font-weight: bold;
+      font-size: 3vw;
+      height: 9vw;
+      @media screen and (max-width: 768px) {
+        width: 80vw;
+        font-size: 6vw;
+        height: 18vw;
+      }
+      @media screen and (max-width: 480px) {
+        width: 85vw;
+        font-size: 5.8vw;
+        height: 28vw;
+      }
+    }
+  }
   .converterBlock {
     display: flex;
-    background: #fff;
+    background: #091029;
+    border: 5px solid rgba(231, 223, 51, 0.5);
     width: 30vw;
     flex-direction: column;
     justify-content: space-around;
-    height: 30vw;
+    height: 34vw;
     padding: 2vw;
     border-radius: 10px;
-    margin-top: 20vh;
-    margin-left: 10vw;
+    color: white;
+    font-family: "JetBrains Mono";
+    @media screen and (max-width: 768px) {
+      width: 60vw;
+      height: 68vw;
+      margin-top: 5vh;
+    }
+    @media screen and (max-width: 480px) {
+      width: 85vw;
+      height: 93vw;
+    }
     .titleConverter {
       text-align: center;
       font-size: 2vw;
+      @media screen and (max-width: 768px) {
+        font-size: 4vw;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 6vw;
+      }
     }
     .result {
       text-align: center;
       font-size: 1.5vw;
+      @media screen and (max-width: 768px) {
+        font-size: 3vw;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 5vw;
+      }
+    }
+    .refresh {
+      margin-left: 11vw;
+      width: 3.2vw;
+      cursor: pointer;
+      transform: rotate(-180deg);
+      transition: transform 1000ms ease;
+      @media screen and (max-width: 768px) {
+        width: 5vw;
+        margin-left: 28vw;
+      }
+      @media screen and (max-width: 480px) {
+        width: 8vw;
+        margin-left: 35vw;
+      }
+    }
+    .refreshActive {
+      transform: rotate(180deg);
+      transition: transform 1000ms ease;
     }
     .selection {
       position: relative;
@@ -48,6 +116,7 @@
         border-radius: 8px;
         appearance: none;
         -webkit-appearance: none;
+        background: white;
         &:focus {
           outline: 0;
           border-color: #0891e6;

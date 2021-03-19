@@ -13,7 +13,7 @@ export default function MachineText({ arrayText, className }) {
 
   useEffect(() => {
     if (count < arrayText[line].length && stateText === true) {
-      setTextPrinted(textErasable + "|");
+      setTextPrinted(textErasable + "_");
     }
   }, [textErasable]);
 
@@ -40,10 +40,10 @@ export default function MachineText({ arrayText, className }) {
         if (count === 0) {
           setDirectOrder(true);
           setTextErasable("");
-          setTextPrinted("|");
+          setTextPrinted("_");
           line++;
         } else {
-          setTextPrinted((prev) => prev.slice(0, count) + "|");
+          setTextPrinted((prev) => prev.slice(0, count) + "_");
           count--;
         }
       }
