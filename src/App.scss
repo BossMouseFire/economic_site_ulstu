@@ -1,15 +1,15 @@
 .containerApp {
   background-image: url("http://localhost:3000/images/background.png");
   width: 100vw;
-  height: 200vh;
+  height: 300vh;
   background-size: cover;
   position: absolute;
   top: 0;
   left: 0;
   @media screen and (max-width: 768px) {
-    height: 300vh;
+    height: 400vh;
   }
   @media screen and (max-width: 480px) {
-    height: 300vh;
+    height: 500vh;
   }
 }

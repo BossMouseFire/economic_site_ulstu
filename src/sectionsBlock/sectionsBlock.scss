@@ -1,0 +1,162 @@
+.containerSections {
+  width: 75vw;
+  margin: auto;
+  @media screen and (max-width: 768px) {
+    width: 80vw;
+  }
+  @media screen and (max-width: 480px) {
+    width: 85vw;
+  }
+  .titleChoice {
+    font-family: "JetBrains Mono";
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 3.5vw;
+    margin-top: 5vh;
+
+    @media screen and (max-width: 768px) {
+      font-size: 5vw;
+    }
+    @media screen and (max-width: 480px) {
+      font-size: 6.5vw;
+    }
+  }
+  .choiceSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 3vh;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      width: 80vw;
+      align-content: center;
+    }
+    @media screen and (max-width: 768px) {
+      width: 85vw;
+    }
+    .sectionBlock {
+      color: white;
+      border: 5px solid;
+      border: 5px solid;
+      border-image-source: linear-gradient(
+        180deg,
+        rgba(231, 223, 51, 0) 0%,
+        #e7df33 98.96%
+      );
+      border-image-slice: 1;
+      border-radius: 10px;
+      font-size: 1.8vw;
+      padding: 1rem;
+      font-family: "JetBrains Mono";
+      margin-bottom: 3vh;
+      letter-spacing: 1.5px;
+      box-shadow: 0 7px 10px #3c354a;
+      transition: all ease 0.5s;
+      position: relative;
+      top: 0;
+      &:hover {
+        top: 4px;
+        box-shadow: 0 2px 0px #3c354a;
+        transition: ease 0.5s;
+        cursor: pointer;
+      }
+      @media screen and (max-width: 1024px) {
+        font-size: 2vw;
+        letter-spacing: 4px;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 2.5vw;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 4vw;
+      }
+    }
+  }
+  .containerExplanation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10vh;
+    font-family: "JetBrains Mono";
+    color: white;
+    width: 73.2vw;
+    @media screen and (max-width: 768px) {
+      align-items: center;
+      width: 80vw;
+    }
+    @media screen and (max-width: 480px) {
+      align-items: center;
+      width: 85vw;
+    }
+    .titleBlock {
+      font-size: 3vw;
+      width: 100%;
+      @media screen and (max-width: 768px) {
+        text-align: center;
+        font-size: 4.5vw;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 6vw;
+      }
+      .titleExplanation {
+        display: inline-block;
+        hr {
+          border: 1.5px solid rgba(231, 223, 51, 1);
+          background: rgba(231, 223, 51, 1);
+        }
+      }
+    }
+    .contentExplanation {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      @media screen and (max-width: 768px) {
+        display: block;
+      }
+      .textCrypto {
+        font-size: 1.5vw;
+        width: 41vw;
+        @media screen and (max-width: 768px) {
+          font-size: 3vw;
+          width: 78vw;
+        }
+        @media screen and (max-width: 480px) {
+          font-size: 4.8vw;
+          width: 83vw;
+        }
+      }
+      .imageBTC {
+        width: 32vw;
+        @media screen and (max-width: 768px) {
+          margin-top: 6vh;
+          width: 74vw;
+        }
+        @media screen and (max-width: 480px) {
+          margin-top: 6vh;
+          width: 79vw;
+        }
+        &::after {
+          content: " ";
+          position: absolute;
+          transform: translate(1.2vw, -21.2vw);
+          width: 32vw;
+          height: 20vw;
+          @media screen and (max-width: 768px) {
+            transform: translate(3vw, -48.76vw);
+            width: 74vw;
+            height: 46vw;
+          }
+          @media screen and (max-width: 480px) {
+            transform: translate(3vw, -52vw);
+            width: 78vw;
+            height: 48.75vw;
+          }
+          border: 5px solid rgba(51, 187, 231, 1);
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+}

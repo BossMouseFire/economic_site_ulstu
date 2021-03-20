@@ -1,5 +1,5 @@
 import React from "react";
-import "./sections.scss";
+
 export default function ChoiceSection() {
   return (
     <div>
