@@ -1,5 +1,5 @@
 .containerApp {
-  background-image: url("http://localhost:3000/images/background.png");
+  background-image: url("http://a3913f4302be.ngrok.io/images/background.png");
   width: 100vw;
   height: 200vh;
   background-size: cover;
@@ -7,9 +7,9 @@
   top: 0;
   left: 0;
   @media screen and (max-width: 768px) {
-    height: 140vh;
+    height: 300vh;
   }
   @media screen and (max-width: 480px) {
-    height: 220vh;
+    height: 300vh;
   }
 }
