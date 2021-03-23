@@ -33,7 +33,7 @@
       width: 80vw;
       align-content: center;
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 468px) {
       width: 85vw;
     }
     .sectionBlock {
@@ -56,10 +56,30 @@
       transition: all ease 0.5s;
       position: relative;
       top: 0;
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: linear-gradient(
+          180deg,
+          rgba(231, 223, 51, 0) 70%,
+          #e7df33 200%
+        );
+        background-position: bottom top;
+        -webkit-transition: 400ms;
+        transition: 400ms;
+      }
+      &:hover:after {
+        height: 100%;
+      }
       &:hover {
         top: 4px;
         box-shadow: 0 2px 0px #3c354a;
-        transition: ease 0.5s;
+        transition: all ease 0.5s;
+        background-position: bottom top;
         cursor: pointer;
       }
       @media screen and (max-width: 1024px) {
@@ -74,88 +94,71 @@
       }
     }
   }
-  .containerExplanation {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-top: 10vh;
-    font-family: "JetBrains Mono";
-    color: white;
-    width: 73.2vw;
+  .titleBlock {
+    font-size: 3vw;
+    width: 100%;
+    line-height: 5vh;
     @media screen and (max-width: 768px) {
-      align-items: center;
-      width: 80vw;
+      font-size: 4.5vw;
     }
     @media screen and (max-width: 480px) {
-      align-items: center;
-      width: 85vw;
+      font-size: 6vw;
     }
-    .titleBlock {
-      font-size: 3vw;
-      width: 100%;
+    .titleInteriorBlock {
+      display: inline-block;
+      hr {
+        border: 1.5px solid rgba(231, 223, 51, 1);
+        background: rgba(231, 223, 51, 1);
+      }
+    }
+  }
+  .contentWithImage {
+    display: flex;
+    flex-direction: row;
+    @media screen and (max-width: 768px) {
+      display: block;
+    }
+    .textContent {
+      font-size: 1.5vw;
+      width: 40vw;
+      margin-right: 1.5vw;
       @media screen and (max-width: 768px) {
-        text-align: center;
-        font-size: 4.5vw;
+        font-size: 3vw;
+        width: 78vw;
       }
       @media screen and (max-width: 480px) {
-        font-size: 6vw;
-      }
-      .titleExplanation {
-        display: inline-block;
-        hr {
-          border: 1.5px solid rgba(231, 223, 51, 1);
-          background: rgba(231, 223, 51, 1);
-        }
+        font-size: 4.8vw;
+        width: 83vw;
       }
     }
-    .contentExplanation {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
+    .imageContent {
+      width: 32vw;
       @media screen and (max-width: 768px) {
-        display: block;
+        margin-top: 6vh;
+        width: 74vw;
       }
-      .textCrypto {
-        font-size: 1.5vw;
-        width: 41vw;
-        @media screen and (max-width: 768px) {
-          font-size: 3vw;
-          width: 78vw;
-        }
-        @media screen and (max-width: 480px) {
-          font-size: 4.8vw;
-          width: 83vw;
-        }
+      @media screen and (max-width: 480px) {
+        margin-top: 6vh;
+        width: 79vw;
       }
-      .imageBTC {
+      &::after {
+        content: " ";
+        position: absolute;
+        transform: translate(1.2vw, -21.2vw);
         width: 32vw;
+        height: 20vw;
         @media screen and (max-width: 768px) {
-          margin-top: 6vh;
+          transform: translate(3vw, -48.76vw);
           width: 74vw;
+          height: 46vw;
         }
         @media screen and (max-width: 480px) {
-          margin-top: 6vh;
-          width: 79vw;
+          transform: translate(3vw, -52vw);
+          width: 78vw;
+          height: 48.75vw;
         }
-        &::after {
-          content: " ";
-          position: absolute;
-          transform: translate(1.2vw, -21.2vw);
-          width: 32vw;
-          height: 20vw;
-          @media screen and (max-width: 768px) {
-            transform: translate(3vw, -48.76vw);
-            width: 74vw;
-            height: 46vw;
-          }
-          @media screen and (max-width: 480px) {
-            transform: translate(3vw, -52vw);
-            width: 78vw;
-            height: 48.75vw;
-          }
-          border: 5px solid rgba(51, 187, 231, 1);
-          box-sizing: border-box;
-        }
+        border: 5px solid rgba(51, 187, 231, 1);
+        box-sizing: border-box;
       }
     }
   }

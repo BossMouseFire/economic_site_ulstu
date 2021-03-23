@@ -37,11 +37,11 @@ export default function Converter() {
 
   return (
     <div className="converterBlock">
-      <div className="titleConverter">Конвертер Криптовалют</div>
+      <div className="titleConverter">Конвертер валют</div>
       <div>
         <input
           value={amount !== 0 ? amount : null}
-          placeholder="Введите сумму для конвертации"
+          placeholder="Введите сумму для конвертации..."
           onChange={(e) => setAmount(e.target.value)}
           onClick={(e) => e.target.focus()}
         />
