@@ -3,7 +3,7 @@ import "./history.scss";
 export default function History() {
   return (
     <div className="containerHistory">
-      <div className="titleBlock"> 
+      <div className="titleBlock">
         <div className="titleInteriorBlock">
           История развития криптовалюты <hr />
         </div>
@@ -96,11 +96,13 @@ export default function History() {
       <div className="contentWithImage">
         <div className="textContent">
           История криптовалют с экономической точки зрения также считается
-          неоднозначной. Их правовой режим значительно различается в разных
-          странах: где-то они активно включаются в экономику, а где-то
-          наблюдаются вне закона. Обычно криптовалюты рассматриваются как товар
-          или актив и для целей налогообложения подчинены соответствующему
-          законодательству.
+          неоднозначной. Их правовой режим значительно различается{" "}
+          <a href="https://habr.com/ru/company/moneypipe/blog/523354/">
+            в разных странах
+          </a>
+          : где-то они активно включаются в экономику, а где-то наблюдаются вне
+          закона. Обычно криптовалюты рассматриваются как товар или актив и для
+          целей налогообложения подчинены соответствующему законодательству.
         </div>
         <div className="imageContent">
           <img src="/images/legal_regime.jpeg" />
