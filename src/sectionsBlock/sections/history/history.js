@@ -127,6 +127,7 @@ export default function History() {
         про правовой режим криптовалют в России вы сможете узнать{" "}
         <a href="https://www.garant.ru/news/1448450/">здесь</a>.
       </div>
+      
     </div>
   );
 }
