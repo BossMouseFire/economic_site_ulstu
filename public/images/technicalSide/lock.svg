@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="169.85" height="212.5" viewBox="0 0 169.85 212.5">
+  <defs>
+    <style>
+      .a, .b {
+        stroke: #fff;
+        stroke-width: 4px;
+      }
+
+      .a, .b, .c {
+        stroke-miterlimit: 10;
+      }
+
+      .a {
+        fill: url(#a);
+      }
+
+      .b, .c {
+        fill: none;
+      }
+
+      .b {
+        stroke-linecap: square;
+      }
+
+      .c {
+        stroke-linecap: round;
+        stroke-width: 9px;
+        stroke: url(#b);
+      }
+    </style>
+    <radialGradient id="a" data-name="Безымянный градиент 206" cx="1016.39" cy="801" r="72.68" gradientTransform="translate(0 -801) scale(1 2)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d4faff"/>
+      <stop offset="0.07" stop-color="#a9d2d9" stop-opacity="0.8"/>
+      <stop offset="0.17" stop-color="#77a1ab" stop-opacity="0.56"/>
+      <stop offset="0.26" stop-color="#4c7985" stop-opacity="0.36"/>
+      <stop offset="0.34" stop-color="#2b5a68" stop-opacity="0.2"/>
+      <stop offset="0.42" stop-color="#134352" stop-opacity="0.09"/>
+      <stop offset="0.49" stop-color="#053646" stop-opacity="0.02"/>
+      <stop offset="0.54" stop-color="#003141" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" data-name="Безымянный градиент 205" cx="1016.53" cy="672.71" r="77.15" gradientTransform="translate(0 371.14) scale(1 0.49)" gradientUnits="userSpaceOnUse">
+      <stop offset="0.46" stop-color="#003141" stop-opacity="0"/>
+      <stop offset="0.51" stop-color="#053646" stop-opacity="0.02"/>
+      <stop offset="0.58" stop-color="#134352" stop-opacity="0.09"/>
+      <stop offset="0.66" stop-color="#2b5a68" stop-opacity="0.2"/>
+      <stop offset="0.74" stop-color="#4c7985" stop-opacity="0.36"/>
+      <stop offset="0.83" stop-color="#77a1ab" stop-opacity="0.56"/>
+      <stop offset="0.93" stop-color="#a9d2d9" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#d4faff"/>
+    </radialGradient>
+  </defs>
+  <path class="a" d="M1096.82,737c0,70.69-36,128-80.43,128h0C972,865,936,807.69,936,737" transform="translate(-931.6 -654.5)"/>
+  <line class="b" x1="165.4" y1="81.5" x2="4.4" y2="82.5"/>
+  <path class="c" d="M936.1,736.71c0-42.92,36-77.71,80.43-77.71h0c44.42,0,80.43,34.79,80.43,77.71" transform="translate(-931.6 -654.5)"/>
+</svg>

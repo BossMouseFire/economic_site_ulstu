@@ -1,0 +1,476 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="989.94" height="763" viewBox="0 0 989.94 763">
+  <defs>
+    <style>
+      .a, .e {
+        opacity: 0.8;
+      }
+
+      .b {
+        fill: #091029;
+      }
+
+      .c {
+        fill: #fff;
+      }
+
+      .d {
+        fill: url(#a);
+      }
+
+      .e {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .f {
+        fill: url(#b);
+      }
+
+      .g {
+        fill: url(#c);
+      }
+
+      .h {
+        fill: url(#d);
+      }
+
+      .i {
+        fill: url(#e);
+      }
+
+      .j {
+        fill: url(#f);
+      }
+
+      .k {
+        fill: url(#g);
+      }
+
+      .l {
+        fill: url(#h);
+      }
+
+      .m {
+        fill: url(#i);
+      }
+
+      .n {
+        fill: url(#j);
+      }
+
+      .o {
+        fill: url(#k);
+      }
+
+      .p {
+        fill: url(#l);
+      }
+
+      .q {
+        fill: url(#m);
+      }
+
+      .r {
+        fill: url(#n);
+      }
+
+      .s {
+        fill: url(#o);
+      }
+
+      .t {
+        fill: url(#p);
+      }
+
+      .u {
+        fill: url(#q);
+      }
+
+      .v {
+        fill: url(#r);
+      }
+
+      .w {
+        fill: url(#s);
+      }
+
+      .x {
+        fill: url(#t);
+      }
+
+      .y {
+        fill: url(#u);
+      }
+
+      .z {
+        fill: url(#v);
+      }
+
+      .aa {
+        fill: url(#w);
+      }
+
+      .ab {
+        fill: url(#x);
+      }
+
+      .ac {
+        fill: url(#y);
+      }
+
+      .ad {
+        fill: url(#z);
+      }
+
+      .ae {
+        fill: url(#aa);
+      }
+
+      .af {
+        fill: url(#ab);
+      }
+
+      .ag {
+        fill: url(#ac);
+      }
+
+      .ah {
+        fill: url(#ad);
+      }
+    </style>
+    <radialGradient id="a" data-name="Безымянный градиент 153" cx="530.16" cy="363.5" r="252.46" gradientTransform="translate(-402.32 118.39) scale(1 0.15)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.13" stop-color="#b5f7ff"/>
+      <stop offset="0.22" stop-color="#d9fbff"/>
+      <stop offset="0.29" stop-color="#90f3ff"/>
+      <stop offset="0.43" stop-color="#003141" stop-opacity="0.3"/>
+      <stop offset="0.47" stop-color="#003141" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="b" cx="530.16" cy="417.5" r="252.46" gradientTransform="translate(-402.32 164.05) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="c" cx="530.16" cy="466.5" r="252.46" gradientTransform="translate(-402.32 205.49) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="d" cx="530.16" cy="522.5" r="252.46" gradientTransform="translate(-402.32 252.85) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="e" cx="530.16" cy="578.5" r="252.46" gradientTransform="translate(-402.32 300.2) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="f" cx="530.16" cy="634.5" r="252.46" gradientTransform="translate(-402.32 347.56) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="g" cx="530.16" cy="690.5" r="252.46" gradientTransform="translate(-402.32 394.91) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="h" data-name="Безымянный градиент 45" cx="48.68" cy="51" r="7.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.21" stop-color="#fff5f5"/>
+      <stop offset="1" stop-color="#ff2617" stop-opacity="0.8"/>
+    </radialGradient>
+    <radialGradient id="i" data-name="Безымянный градиент 51" cx="115.18" cy="51.5" r="7.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.6" stop-color="#fff5f5"/>
+      <stop offset="0.97" stop-color="#39b54a" stop-opacity="0.81"/>
+    </radialGradient>
+    <radialGradient id="j" cx="82.18" cy="51.5" r="7.5" xlink:href="#h"/>
+    <radialGradient id="k" cx="897.16" cy="363.5" r="252.46" xlink:href="#a"/>
+    <radialGradient id="l" cx="897.16" cy="417.5" r="252.46" gradientTransform="translate(-402.32 164.05) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="m" cx="897.16" cy="466.5" r="252.46" gradientTransform="translate(-402.32 205.49) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="n" cx="897.16" cy="522.5" r="252.46" gradientTransform="translate(-402.32 252.85) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="o" cx="897.16" cy="578.5" r="252.46" gradientTransform="translate(-402.32 300.2) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="p" cx="897.16" cy="634.5" r="252.46" gradientTransform="translate(-402.32 347.56) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="q" cx="897.16" cy="690.5" r="252.46" gradientTransform="translate(-402.32 394.91) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="r" cx="415.68" r="7.5" xlink:href="#h"/>
+    <radialGradient id="s" cx="482.18" r="7.5" xlink:href="#i"/>
+    <radialGradient id="t" cx="449.18" cy="51.5" r="7.5" xlink:href="#h"/>
+    <radialGradient id="u" cx="1264.16" cy="363.5" r="252.46" xlink:href="#a"/>
+    <radialGradient id="v" cx="1264.16" cy="417.5" r="252.46" gradientTransform="translate(-402.32 164.05) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="w" cx="1264.16" cy="466.5" r="252.46" gradientTransform="translate(-402.32 205.49) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="x" cx="1264.16" cy="522.5" r="252.46" gradientTransform="translate(-402.32 252.85) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="y" cx="1264.16" cy="578.5" r="252.46" gradientTransform="translate(-402.32 300.2) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="z" cx="1264.16" cy="634.5" r="252.46" gradientTransform="translate(-402.32 347.56) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="aa" cx="1264.16" cy="690.5" r="252.46" gradientTransform="translate(-402.32 394.91) scale(1 0.15)" xlink:href="#a"/>
+    <radialGradient id="ab" cx="782.68" r="7.5" xlink:href="#h"/>
+    <radialGradient id="ac" cx="849.18" r="7.5" xlink:href="#i"/>
+    <radialGradient id="ad" cx="816.18" cy="51.5" r="7.5" xlink:href="#h"/>
+  </defs>
+  <g>
+    <g class="a">
+      <rect class="b" x="3.5" y="3.5" width="248.94" height="756" rx="37.38"/>
+      <path class="c" d="M617.37,196a33.92,33.92,0,0,1,33.89,33.88V911.12A33.92,33.92,0,0,1,617.37,945H443.2a33.92,33.92,0,0,1-33.88-33.88V229.88A33.92,33.92,0,0,1,443.2,196H617.37m0-7H443.2a40.88,40.88,0,0,0-40.88,40.88V911.12A40.88,40.88,0,0,0,443.2,952H617.37a40.89,40.89,0,0,0,40.89-40.88V229.88A40.89,40.89,0,0,0,617.37,189Z" transform="translate(-402.32 -189)"/>
+    </g>
+    <g class="a">
+      <rect class="b" x="3.5" y="132.5" width="248.94" height="627" rx="37.38"/>
+      <path class="c" d="M617.37,325a33.92,33.92,0,0,1,33.89,33.88V911.12A33.92,33.92,0,0,1,617.37,945H443.2a33.92,33.92,0,0,1-33.88-33.88V358.88A33.92,33.92,0,0,1,443.2,325H617.37m0-7H443.2a40.88,40.88,0,0,0-40.88,40.88V911.12A40.88,40.88,0,0,0,443.2,952H617.37a40.89,40.89,0,0,0,40.89-40.88V358.88A40.89,40.89,0,0,0,617.37,318Z" transform="translate(-402.32 -189)"/>
+    </g>
+    <g>
+      <g>
+        <g class="a">
+          <rect class="d" x="16" y="158" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="28.5" y="164.5" width="198.68" height="19"/>
+          <path class="c" d="M629,354v18H431.32V354H629m1-1H430.32v20H630V353Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="32" y="168" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="f" x="16" y="212" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="28.5" y="218.5" width="198.68" height="19"/>
+          <path class="c" d="M629,408v18H431.32V408H629m1-1H430.32v20H630V407Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="32" y="222" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="g" x="16" y="261" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="28.5" y="267.5" width="198.68" height="19"/>
+          <path class="c" d="M629,457v18H431.32V457H629m1-1H430.32v20H630V456Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="32" y="271" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="h" x="16" y="317" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="28.5" y="323.5" width="198.68" height="19"/>
+          <path class="c" d="M629,513v18H431.32V513H629m1-1H430.32v20H630V512Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="32" y="327" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="i" x="16" y="373" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="28.5" y="379.5" width="198.68" height="19"/>
+          <path class="c" d="M629,569v18H431.32V569H629m1-1H430.32v20H630V568Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="32" y="383" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="j" x="16" y="429" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="28.5" y="435.5" width="198.68" height="19"/>
+          <path class="c" d="M629,625v18H431.32V625H629m1-1H430.32v20H630V624Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="32" y="439" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="k" x="16" y="485" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="28.5" y="491.5" width="198.68" height="19"/>
+          <path class="c" d="M629,681v18H431.32V681H629m1-1H430.32v20H630V680Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="32" y="495" width="149.76" height="8"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <circle class="l" cx="48.68" cy="51" r="7.5"/>
+        <path d="M451,233.5a6.5,6.5,0,1,1-6.5,6.5,6.5,6.5,0,0,1,6.5-6.5m0-2a8.5,8.5,0,1,0,8.5,8.5,8.51,8.51,0,0,0-8.5-8.5Z" transform="translate(-402.32 -189)"/>
+      </g>
+      <g>
+        <circle class="m" cx="115.18" cy="51.5" r="7.5"/>
+        <path d="M517.5,234a6.5,6.5,0,1,1-6.5,6.5,6.5,6.5,0,0,1,6.5-6.5m0-2a8.5,8.5,0,1,0,8.5,8.5,8.51,8.51,0,0,0-8.5-8.5Z" transform="translate(-402.32 -189)"/>
+      </g>
+      <g>
+        <circle class="n" cx="82.18" cy="51.5" r="7.5"/>
+        <path d="M484.5,234a6.5,6.5,0,1,1-6.5,6.5,6.5,6.5,0,0,1,6.5-6.5m0-2a8.5,8.5,0,1,0,8.5,8.5,8.51,8.51,0,0,0-8.5-8.5Z" transform="translate(-402.32 -189)"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <g class="a">
+      <rect class="b" x="370.5" y="3.5" width="248.94" height="756" rx="37.38"/>
+      <path class="c" d="M984.37,196a33.92,33.92,0,0,1,33.89,33.88V911.12A33.92,33.92,0,0,1,984.37,945H810.2a33.92,33.92,0,0,1-33.88-33.88V229.88A33.92,33.92,0,0,1,810.2,196H984.37m0-7H810.2a40.88,40.88,0,0,0-40.88,40.88V911.12A40.88,40.88,0,0,0,810.2,952H984.37a40.89,40.89,0,0,0,40.89-40.88V229.88A40.89,40.89,0,0,0,984.37,189Z" transform="translate(-402.32 -189)"/>
+    </g>
+    <g class="a">
+      <rect class="b" x="370.5" y="132.5" width="248.94" height="627" rx="37.38"/>
+      <path class="c" d="M984.37,325a33.92,33.92,0,0,1,33.89,33.88V911.12A33.92,33.92,0,0,1,984.37,945H810.2a33.92,33.92,0,0,1-33.88-33.88V358.88A33.92,33.92,0,0,1,810.2,325H984.37m0-7H810.2a40.88,40.88,0,0,0-40.88,40.88V911.12A40.88,40.88,0,0,0,810.2,952H984.37a40.89,40.89,0,0,0,40.89-40.88V358.88A40.89,40.89,0,0,0,984.37,318Z" transform="translate(-402.32 -189)"/>
+    </g>
+    <g>
+      <g>
+        <g class="a">
+          <rect class="o" x="383" y="158" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="395.5" y="164.5" width="198.68" height="19"/>
+          <path class="c" d="M996,354v18H798.32V354H996m1-1H797.32v20H997V353Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="399" y="168" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="p" x="383" y="212" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="395.5" y="218.5" width="198.68" height="19"/>
+          <path class="c" d="M996,408v18H798.32V408H996m1-1H797.32v20H997V407Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="399" y="222" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="q" x="383" y="261" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="395.5" y="267.5" width="198.68" height="19"/>
+          <path class="c" d="M996,457v18H798.32V457H996m1-1H797.32v20H997V456Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="399" y="271" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="r" x="383" y="317" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="395.5" y="323.5" width="198.68" height="19"/>
+          <path class="c" d="M996,513v18H798.32V513H996m1-1H797.32v20H997V512Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="399" y="327" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="s" x="383" y="373" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="395.5" y="379.5" width="198.68" height="19"/>
+          <path class="c" d="M996,569v18H798.32V569H996m1-1H797.32v20H997V568Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="399" y="383" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="t" x="383" y="429" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="395.5" y="435.5" width="198.68" height="19"/>
+          <path class="c" d="M996,625v18H798.32V625H996m1-1H797.32v20H997V624Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="399" y="439" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="u" x="383" y="485" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="395.5" y="491.5" width="198.68" height="19"/>
+          <path class="c" d="M996,681v18H798.32V681H996m1-1H797.32v20H997V680Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="399" y="495" width="149.76" height="8"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <circle class="v" cx="415.68" cy="51" r="7.5"/>
+        <path d="M818,233.5a6.5,6.5,0,1,1-6.5,6.5,6.5,6.5,0,0,1,6.5-6.5m0-2a8.5,8.5,0,1,0,8.5,8.5,8.51,8.51,0,0,0-8.5-8.5Z" transform="translate(-402.32 -189)"/>
+      </g>
+      <g>
+        <circle class="w" cx="482.18" cy="51.5" r="7.5"/>
+        <path d="M884.5,234a6.5,6.5,0,1,1-6.5,6.5,6.5,6.5,0,0,1,6.5-6.5m0-2a8.5,8.5,0,1,0,8.5,8.5,8.51,8.51,0,0,0-8.5-8.5Z" transform="translate(-402.32 -189)"/>
+      </g>
+      <g>
+        <circle class="x" cx="449.18" cy="51.5" r="7.5"/>
+        <path d="M851.5,234a6.5,6.5,0,1,1-6.5,6.5,6.5,6.5,0,0,1,6.5-6.5m0-2a8.5,8.5,0,1,0,8.5,8.5,8.51,8.51,0,0,0-8.5-8.5Z" transform="translate(-402.32 -189)"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <g class="a">
+      <rect class="b" x="737.5" y="3.5" width="248.94" height="756" rx="37.38"/>
+      <path class="c" d="M1351.37,196a33.92,33.92,0,0,1,33.89,33.88V911.12A33.92,33.92,0,0,1,1351.37,945H1177.2a33.92,33.92,0,0,1-33.88-33.88V229.88A33.92,33.92,0,0,1,1177.2,196h174.17m0-7H1177.2a40.88,40.88,0,0,0-40.88,40.88V911.12A40.88,40.88,0,0,0,1177.2,952h174.17a40.89,40.89,0,0,0,40.89-40.88V229.88A40.89,40.89,0,0,0,1351.37,189Z" transform="translate(-402.32 -189)"/>
+    </g>
+    <g class="a">
+      <rect class="b" x="737.5" y="132.5" width="248.94" height="627" rx="37.38"/>
+      <path class="c" d="M1351.37,325a33.92,33.92,0,0,1,33.89,33.88V911.12A33.92,33.92,0,0,1,1351.37,945H1177.2a33.92,33.92,0,0,1-33.88-33.88V358.88A33.92,33.92,0,0,1,1177.2,325h174.17m0-7H1177.2a40.88,40.88,0,0,0-40.88,40.88V911.12A40.88,40.88,0,0,0,1177.2,952h174.17a40.89,40.89,0,0,0,40.89-40.88V358.88A40.89,40.89,0,0,0,1351.37,318Z" transform="translate(-402.32 -189)"/>
+    </g>
+    <g>
+      <g>
+        <g class="a">
+          <rect class="y" x="750" y="158" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="762.5" y="164.5" width="198.68" height="19"/>
+          <path class="c" d="M1363,354v18H1165.32V354H1363m1-1H1164.32v20H1364V353Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="766" y="168" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="z" x="750" y="212" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="762.5" y="218.5" width="198.68" height="19"/>
+          <path class="c" d="M1363,408v18H1165.32V408H1363m1-1H1164.32v20H1364V407Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="766" y="222" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="aa" x="750" y="261" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="762.5" y="267.5" width="198.68" height="19"/>
+          <path class="c" d="M1363,457v18H1165.32V457H1363m1-1H1164.32v20H1364V456Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="766" y="271" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="ab" x="750" y="317" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="762.5" y="323.5" width="198.68" height="19"/>
+          <path class="c" d="M1363,513v18H1165.32V513H1363m1-1H1164.32v20H1364V512Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="766" y="327" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="ac" x="750" y="373" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="762.5" y="379.5" width="198.68" height="19"/>
+          <path class="c" d="M1363,569v18H1165.32V569H1363m1-1H1164.32v20H1364V568Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="766" y="383" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="ad" x="750" y="429" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="762.5" y="435.5" width="198.68" height="19"/>
+          <path class="c" d="M1363,625v18H1165.32V625H1363m1-1H1164.32v20H1364V624Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="766" y="439" width="149.76" height="8"/>
+      </g>
+      <g>
+        <g class="a">
+          <rect class="ae" x="750" y="485" width="223.68" height="33"/>
+        </g>
+        <g class="a">
+          <rect class="b" x="762.5" y="491.5" width="198.68" height="19"/>
+          <path class="c" d="M1363,681v18H1165.32V681H1363m1-1H1164.32v20H1364V680Z" transform="translate(-402.32 -189)"/>
+        </g>
+        <rect class="e" x="766" y="495" width="149.76" height="8"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <circle class="af" cx="782.68" cy="51" r="7.5"/>
+        <path d="M1185,233.5a6.5,6.5,0,1,1-6.5,6.5,6.5,6.5,0,0,1,6.5-6.5m0-2a8.5,8.5,0,1,0,8.5,8.5,8.51,8.51,0,0,0-8.5-8.5Z" transform="translate(-402.32 -189)"/>
+      </g>
+      <g>
+        <circle class="ag" cx="849.18" cy="51.5" r="7.5"/>
+        <path d="M1251.5,234a6.5,6.5,0,1,1-6.5,6.5,6.5,6.5,0,0,1,6.5-6.5m0-2a8.5,8.5,0,1,0,8.5,8.5,8.51,8.51,0,0,0-8.5-8.5Z" transform="translate(-402.32 -189)"/>
+      </g>
+      <g>
+        <circle class="ah" cx="816.18" cy="51.5" r="7.5"/>
+        <path d="M1218.5,234a6.5,6.5,0,1,1-6.5,6.5,6.5,6.5,0,0,1,6.5-6.5m0-2a8.5,8.5,0,1,0,8.5,8.5,8.51,8.51,0,0,0-8.5-8.5Z" transform="translate(-402.32 -189)"/>
+      </g>
+    </g>
+  </g>
+</svg>
