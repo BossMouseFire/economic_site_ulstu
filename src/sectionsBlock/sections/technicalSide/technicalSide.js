@@ -14,17 +14,17 @@ export default function TechnicalSide() {
       let coin = document.querySelector("#mainBitcoin");
       if (
         window.scrollY > positionCoin &&
-        window.scrollY < positionWallet * 0.96
+        window.scrollY < positionWallet
       ) {
         coin.style.transform = `translate(0, ${
           (window.pageYOffset - positionCoin) * 1.1
         }px) scale(${window.scrollY <= positionCoin * 1.005 ? 1 : 0.34})`; //0.35
         let opacityCoin =
-          window.scrollY > positionWallet * 0.958
+          window.scrollY > positionWallet * 0.985
             ? 0
-            : window.scrollY > positionMainerBlock * 0.98
+            : window.scrollY > positionMainerBlock * 1.02
             ? 1
-            : window.scrollY > positonTransactions * 0.987
+            : window.scrollY > positonTransactions
             ? 0
             : 1;
         coin.style.opacity = `${opacityCoin}`;
@@ -46,46 +46,46 @@ export default function TechnicalSide() {
       let card = document.querySelector("#card");
       if (
         window.scrollY > positionCard &&
-        window.scrollY < positionCardBlock * 0.9658
+        window.scrollY < positionCardBlock * 0.95
       ) {
         card.style.transform = `translate(0, ${
           (window.pageYOffset - positionCard) * 1.3
         }px) scale(${window.scrollY <= positionCard * 1.012 ? 1 : 0.38})`; //0.35
         card.style.opacity = `${
-          window.scrollY > positionCardBlock * 0.964 ? 0 : 1
+          window.scrollY > positionCardBlock * 0.945 ? 0 : 1
         }`;
       }
 
       let cardBlock = document.querySelector("#cardBlock");
       if (
         window.scrollY > positionCardBlock &&
-        window.scrollY < positionGroupCardBlock * 0.974
+        window.scrollY < positionGroupCardBlock * 1.15
       ) {
         cardBlock.style.transform = `translate(0, ${
           (window.pageYOffset - positionCardBlock) * 1.3
         }px) scale(${window.scrollY <= positionCardBlock * 1.012 ? 1 : 0.26})`;
         cardBlock.style.opacity = `${
-          window.scrollY > positionGroupCardBlock * 0.973 ? 0 : 1
+          window.scrollY > positionGroupCardBlock ? 0 : 1
         }`;
       }
 
       let groupCardBlock = document.querySelector("#groupCardBlock");
       if (
         window.scrollY > positionGroupCardBlock &&
-        window.scrollY < positionMainerBlock * 0.982
+        window.scrollY < positionMainerBlock
       ) {
         groupCardBlock.style.transform = `translate(0, ${
           (window.pageYOffset - positionGroupCardBlock) * 1.3
         }px)`;
         groupCardBlock.style.opacity = `${
-          window.scrollY > positionMainerBlock * 0.98 ? 0 : 1
+          window.scrollY > positionMainerBlock * 0.99 ? 0 : 1
         }`;
       }
 
       let wallet = document.querySelector("#wallet");
       if (
         window.scrollY > positionWallet &&
-        window.scrollY < positionLock * 0.974
+        window.scrollY < positionLock * 0.95
       ) {
         wallet.style.transform = `translate(0, ${
           (window.pageYOffset - positionWallet) * 1.3
@@ -111,27 +111,27 @@ export default function TechnicalSide() {
   });
   const getPositionElements = () => {
     setTimeout(() => {
-      let coin = document.querySelector("#mainBitcoin");
+      let coin = document.querySelector("#test");
       setPositionCoin(getCoords(coin).top);
-      let transactions = document.querySelector("#transactions");
+      let transactions = document.querySelector("#test2");
       setPositionTransactions(getCoords(transactions).top);
 
-      let card = document.querySelector("#card");
+      let card = document.querySelector("#test3");
       setPositionCard(getCoords(card).top);
 
-      let cardBlock = document.querySelector("#cardBlock");
+      let cardBlock = document.querySelector("#test4");
       setPositionCardBlock(getCoords(cardBlock).top);
 
-      let groupCardBlock = document.querySelector("#groupCardBlock");
+      let groupCardBlock = document.querySelector("#test5");
       setPositionGroupCardBlock(getCoords(groupCardBlock).top);
 
-      let mainerBlock = document.querySelector("#mainerBlock");
+      let mainerBlock = document.querySelector("#test6");
       setPositionMainerBlock(getCoords(mainerBlock).top);
 
-      let wallet = document.querySelector("#wallet");
+      let wallet = document.querySelector("#test7");
       setPositionWallet(getCoords(wallet).top);
 
-      let lock = document.querySelector("#lock");
+      let lock = document.querySelector("#test8");
       setPositionLock(getCoords(lock).top);
     }, 300);
   };
@@ -195,10 +195,10 @@ export default function TechnicalSide() {
             <img
               src="/images/technicalSide/bitcoin.svg"
               id="mainBitcoin"
-              style={{ transition: "all 0.3s ease", zIndex: 1 }}
+              style={{ transition: "all 0.4s ease", zIndex: 1 }}
             />
           </div>
-          <div>
+          <div id="test">
             <div className="titleBlock">Актив</div>
             <div>
               Актив — это что-то ценное: деньги, имущество, ценные бумаги,
@@ -213,10 +213,10 @@ export default function TechnicalSide() {
             <img
               src="/images/technicalSide/transactions.svg"
               id="transactions"
-              style={{ transition: "all 0.3s ease", zIndex: 2 }}
+              style={{ transition: "all 0.4s ease", zIndex: 2 }}
             />
           </div>
-          <div>
+          <div id="test2">
             <div className="titleBlock">Транзакция</div>
             <div>
               <a href="https://ru-bitcoinwiki-org.turbopages.org/ru.bitcoinwiki.org/s/wiki/Bitcoin_%D1%82%D1%80%D0%B0%D0%BD%D0%B7%D0%B0%D0%BA%D1%86%D0%B8%D1%8F">
@@ -241,10 +241,10 @@ export default function TechnicalSide() {
             <img
               src="/images/technicalSide/account.svg"
               id="card"
-              style={{ transition: "all 0.3s ease", zIndex: 3 }}
+              style={{ transition: "all 0.4s ease", zIndex: 3 }}
             />
           </div>
-          <div>
+          <div id="test3">
             <div className="titleBlock">Учёт транзакций</div>
             <div>
               Учёт транзакций – это фиксация всех переходов биткойна или права
@@ -282,10 +282,10 @@ export default function TechnicalSide() {
             <img
               src="/images/technicalSide/block.svg"
               id="cardBlock"
-              style={{ transition: "all 0.3s ease", zIndex: 3 }}
+              style={{ transition: "all 0.4s ease", zIndex: 3 }}
             />
           </div>
-          <div>
+          <div id="test4">
             <div className="titleBlock">Блок</div>
             <div>
               Блок – это запись в распределенном реестре о нескольких
@@ -302,10 +302,10 @@ export default function TechnicalSide() {
             <img
               src="/images/technicalSide/groupChain.svg"
               id="groupCardBlock"
-              style={{ transition: "all 0.3s ease", zIndex: 3 }}
+              style={{ transition: "all 0.4s ease", zIndex: 3 }}
             />
           </div>
-          <div>
+          <div id="test5">
             <div className="titleBlock">Цепь</div>
             <div>
               Цепь блокчейна неразрывна, поскольку каждый блок содержит
@@ -331,10 +331,10 @@ export default function TechnicalSide() {
             <img
               src="/images/technicalSide/mainer.svg"
               id="mainerBlock"
-              style={{ transition: "all 0.3s ease", zIndex: 3 }}
+              style={{ transition: "all 0.4s ease", zIndex: 3 }}
             />
           </div>
-          <div>
+          <div id="test6">
             <div className="titleBlock">Майнеры</div>
             <div>
               Чтобы достичь консенсуса относительно того, какие блоки транзакций
@@ -388,10 +388,10 @@ export default function TechnicalSide() {
             <img
               src="/images/technicalSide/wallet.svg"
               id="wallet"
-              style={{ transition: "all 0.3s ease", zIndex: 3 }}
+              style={{ transition: "all 0.4s ease", zIndex: 3 }}
             />
           </div>
-          <div>
+          <div id="test7">
             <div className="titleBlock">Кошелек</div>
             <div>
               Пользователи криптовалют используют специальные программные или
@@ -426,14 +426,14 @@ export default function TechnicalSide() {
               src="/images/technicalSide/lock.svg"
               id="lock"
               style={{
-                transition: "all 0.3s ease",
+                transition: "all 0.4s ease",
                 zIndex: 4,
-                width: "6vw",
+                width: "7vw",
                 marginLeft: "11vw",
               }}
             />
           </div>
-          <div>
+          <div id="test8">
             <div className="titleBlock">Шифрование</div>
             <div>
               Благодаря криптографии, которая лежит в основе криптовалют, и

@@ -37,6 +37,7 @@
       width: 85vw;
     }
     .sectionBlock {
+      
       color: white;
       border: 5px solid;
       border: 5px solid;
@@ -81,6 +82,9 @@
         transition: all ease 0.5s;
         background-position: bottom top;
         cursor: pointer;
+      }
+      &:nth-child(1){
+        width: 53%;
       }
       @media screen and (max-width: 1024px) {
         font-size: 2vw;
