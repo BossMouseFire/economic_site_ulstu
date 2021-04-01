@@ -98,25 +98,47 @@
     width: 75vw;
     justify-content: space-between;
     margin-top: 2vh;
+    @media screen and (max-width: 768px) {
+      width: 80vw;
+      flex-direction: column;
+    }
+    @media screen and (max-width: 480px) {
+      width: 85vw;
+      flex-direction: column;
+    }
     .videoContent {
       margin-top: 0vh !important;
       display: flex;
       flex-direction: column;
+      @media screen and (max-width: 768px) {
+       margin-top: 3vh !important; 
+      }
+      @media screen and (max-width: 480px) {
+        margin-top: 4vh !important; 
+      }
       div {
         &:nth-child(1) {
           iframe {
             width: 35.25vw;
             height: 19.6vw;
+            @media screen and (max-width: 768px) {
+              width: 78.7vw;
+              height: 43.6vw;
+            }
+            @media screen and (max-width: 480px) {
+              width: 82.5vw;
+              height: 45.5vw;
+            }
           }
           width: 36vw;
           height: 20.22vw;
           @media screen and (max-width: 768px) {
-            width: 74vw;
-            height: 46vw;
+            width: 80vw;
+            height: 45vw;
           }
           @media screen and (max-width: 480px) {
-            width: 78vw;
-            height: 48.75vw;
+            width: 85vw;
+            height: 47.7vw;
           }
           border: 5px solid rgba(51, 187, 231, 1);
           box-sizing: border-box;
@@ -126,6 +148,14 @@
           font-style: italic;
           font-size: 1vw;
           text-align: center;
+          @media screen and (max-width: 768px) {
+            width: 80vw;
+            font-size: 2vw;
+          }
+          @media screen and (max-width: 480px) {
+            width: 85vw;
+            font-size: 3vw;
+          }
         }
       }
     }
