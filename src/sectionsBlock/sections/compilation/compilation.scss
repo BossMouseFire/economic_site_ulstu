@@ -1,0 +1,27 @@
+.containerCompilation {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8vh;
+  @media screen and (max-width: 768px) {
+    font-size: 3vw;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 4.8vw;
+  }
+  div {
+    margin-top: 2vh;
+    @media screen and (max-width: 480px) {
+      margin-top: 5vh;
+    }
+    ul {
+      list-style-image: url("https://crypto-economic-app.herokuapp.com/images/bitcoinList.svg");
+      li {
+        margin-top: 2vh;
+      }
+    }
+    a {
+      font-style: italic;
+      color: #33bbe7;
+    }
+  }
+}

@@ -4,6 +4,10 @@ import Explanation from './sections/explanationBlock/explanation'
 import './sectionsBlock.scss'
 import History from './sections/history/history'
 import TechnicalSide from './sections/technicalSide/technicalSide'
+import UseCoin from './sections/useCoin/useCoin'
+import ValutionCoin from './sections/valuationCoin/valutionCoin'
+import Questions from './sections/questions/questions'
+import Compilation from './sections/compilation/compilation'
 export default function SectionsBlock() {
     return (
         <div className="containerSections">
@@ -11,6 +15,10 @@ export default function SectionsBlock() {
             <Explanation/>
             <History/>
             <TechnicalSide/>
+            <UseCoin/>
+            <ValutionCoin/>
+            <Questions/>
+            <Compilation/>
         </div>
     )
 }

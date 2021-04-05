@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="682.73" height="528.12" viewBox="0 0 682.73 528.12">
+  <defs>
+    <style>
+      .a {
+        opacity: 0.26;
+      }
+
+      .b {
+        fill: url(#a);
+      }
+
+      .c {
+        fill: #fff;
+      }
+
+      .d {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+      }
+    </style>
+    <linearGradient id="a" data-name="Безымянный градиент 202" x1="2" y1="276.12" x2="639.45" y2="276.12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#003141" stop-opacity="0"/>
+      <stop offset="0.09" stop-color="#053646" stop-opacity="0.02"/>
+      <stop offset="0.22" stop-color="#134352" stop-opacity="0.09"/>
+      <stop offset="0.36" stop-color="#2b5a68" stop-opacity="0.2"/>
+      <stop offset="0.52" stop-color="#4c7985" stop-opacity="0.36"/>
+      <stop offset="0.69" stop-color="#77a1ab" stop-opacity="0.56"/>
+      <stop offset="0.87" stop-color="#a9d2d9" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#d4faff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g class="a">
+      <rect class="b" x="2" y="26.12" width="637.45" height="500" rx="38.88"/>
+      <path class="c" d="M1297.84,308a36.93,36.93,0,0,1,36.89,36.88V767.12A36.93,36.93,0,0,1,1297.84,804H738.16a36.93,36.93,0,0,1-36.89-36.88V344.88A36.93,36.93,0,0,1,738.16,308h559.68m0-4H738.16a40.89,40.89,0,0,0-40.89,40.88V767.12A40.89,40.89,0,0,0,738.16,808h559.68a40.89,40.89,0,0,0,40.89-40.88V344.88A40.89,40.89,0,0,0,1297.84,304Z" transform="translate(-697.27 -279.88)"/>
+    </g>
+    <path class="c" d="M1297.84,308a36.93,36.93,0,0,1,36.89,36.88V767.12A36.93,36.93,0,0,1,1297.84,804H738.16a36.93,36.93,0,0,1-36.89-36.88V344.88A36.93,36.93,0,0,1,738.16,308h559.68m0-4H738.16a40.89,40.89,0,0,0-40.89,40.88V767.12A40.89,40.89,0,0,0,738.16,808h559.68a40.89,40.89,0,0,0,40.89-40.88V344.88A40.89,40.89,0,0,0,1297.84,304Z" transform="translate(-697.27 -279.88)"/>
+    <path class="c" d="M1339.12,544.24a36.88,36.88,0,1,1,0,73.76h-53.39a36.88,36.88,0,0,1,0-73.76h53.39m0-4h-53.39a40.88,40.88,0,0,0-40.88,40.88h0A40.88,40.88,0,0,0,1285.73,622h53.39A40.88,40.88,0,0,0,1380,581.12h0a40.88,40.88,0,0,0-40.88-40.88Z" transform="translate(-697.27 -279.88)"/>
+    <path class="d" d="M699.64,340.82V322.76c0-22.58,7.64-40.88,40.89-40.88h450a40.89,40.89,0,0,1,37.43,24.41" transform="translate(-697.27 -279.88)"/>
+  </g>
+</svg>

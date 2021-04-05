@@ -2,7 +2,7 @@ import React from "react";
 import MachineText from "./machineText";
 import "./aboutProject.scss";
 import Converter from "./converter/converter";
-const AboutProject = () => {
+export default function AboutProject(){
   return (
     <div className="containerBackground">
       <Converter />
@@ -26,4 +26,3 @@ const AboutProject = () => {
   );
 };
 
-export default AboutProject;
