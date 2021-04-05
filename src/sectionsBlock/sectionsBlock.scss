@@ -8,13 +8,10 @@
     width: 85vw;
   }
   .titleChoice {
-    font-family: "JetBrains Mono";
-    text-align: center;
-    color: white;
     font-weight: bold;
     font-size: 3.5vw;
     margin-top: 5vh;
-
+    text-align: center;
     @media screen and (max-width: 768px) {
       font-size: 5vw;
     }
@@ -37,8 +34,6 @@
       width: 85vw;
     }
     .sectionBlock {
-      
-      color: white;
       border: 5px solid;
       border: 5px solid;
       border-image-source: linear-gradient(
@@ -50,7 +45,6 @@
       border-radius: 10px;
       font-size: 1.8vw;
       padding: 1rem;
-      font-family: "JetBrains Mono";
       margin-bottom: 3vh;
       letter-spacing: 1.5px;
       box-shadow: 0 7px 10px #3c354a;
@@ -83,17 +77,27 @@
         background-position: bottom top;
         cursor: pointer;
       }
-      &:nth-child(1){
+      &:nth-child(1) {
         width: 53%;
+        @media screen and (max-width: 1024px) {
+          width: 47%;
+        }
+        @media screen and (max-width: 768px) {
+          width: 100%;
+        }
       }
+
       @media screen and (max-width: 1024px) {
         font-size: 2vw;
         letter-spacing: 4px;
+        width: 47%;
       }
       @media screen and (max-width: 768px) {
+        width: 80vw;
         font-size: 2.5vw;
       }
       @media screen and (max-width: 480px) {
+        width: 85vw;
         font-size: 4vw;
       }
     }

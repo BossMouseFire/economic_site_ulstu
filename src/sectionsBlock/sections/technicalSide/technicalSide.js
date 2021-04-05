@@ -111,27 +111,27 @@ export default function TechnicalSide() {
   });
   const getPositionElements = () => {
     setTimeout(() => {
-      let coin = document.querySelector("#test");
+      let coin = document.querySelector("#animateBlock1");
       setPositionCoin(getCoords(coin).top);
-      let transactions = document.querySelector("#test2");
+      let transactions = document.querySelector("#animateBlock2");
       setPositionTransactions(getCoords(transactions).top);
 
-      let card = document.querySelector("#test3");
+      let card = document.querySelector("#animateBlock3");
       setPositionCard(getCoords(card).top);
 
-      let cardBlock = document.querySelector("#test4");
+      let cardBlock = document.querySelector("#animateBlock4");
       setPositionCardBlock(getCoords(cardBlock).top);
 
-      let groupCardBlock = document.querySelector("#test5");
+      let groupCardBlock = document.querySelector("#animateBlock5");
       setPositionGroupCardBlock(getCoords(groupCardBlock).top);
 
-      let mainerBlock = document.querySelector("#test6");
+      let mainerBlock = document.querySelector("#animateBlock6");
       setPositionMainerBlock(getCoords(mainerBlock).top);
 
-      let wallet = document.querySelector("#test7");
+      let wallet = document.querySelector("#animateBlock7");
       setPositionWallet(getCoords(wallet).top);
 
-      let lock = document.querySelector("#test8");
+      let lock = document.querySelector("#animateBlock8");
       setPositionLock(getCoords(lock).top);
     }, 300);
   };
@@ -195,10 +195,10 @@ export default function TechnicalSide() {
             <img
               src="/images/technicalSide/bitcoin.svg"
               id="mainBitcoin"
-              style={{ transition: "all 0.4s ease", zIndex: 1 }}
+              style={{ zIndex: 1 }}
             />
           </div>
-          <div id="test">
+          <div id="animateBlock1">
             <div className="titleBlock">Актив</div>
             <div>
               Актив — это что-то ценное: деньги, имущество, ценные бумаги,
@@ -213,10 +213,10 @@ export default function TechnicalSide() {
             <img
               src="/images/technicalSide/transactions.svg"
               id="transactions"
-              style={{ transition: "all 0.4s ease", zIndex: 2 }}
+              style={{zIndex: 2 }}
             />
           </div>
-          <div id="test2">
+          <div id="animateBlock2">
             <div className="titleBlock">Транзакция</div>
             <div>
               <a href="https://ru-bitcoinwiki-org.turbopages.org/ru.bitcoinwiki.org/s/wiki/Bitcoin_%D1%82%D1%80%D0%B0%D0%BD%D0%B7%D0%B0%D0%BA%D1%86%D0%B8%D1%8F">
@@ -241,10 +241,9 @@ export default function TechnicalSide() {
             <img
               src="/images/technicalSide/account.svg"
               id="card"
-              style={{ transition: "all 0.4s ease", zIndex: 3 }}
             />
           </div>
-          <div id="test3">
+          <div id="animateBlock3">
             <div className="titleBlock">Учёт транзакций</div>
             <div>
               Учёт транзакций – это фиксация всех переходов биткойна или права
@@ -282,10 +281,9 @@ export default function TechnicalSide() {
             <img
               src="/images/technicalSide/block.svg"
               id="cardBlock"
-              style={{ transition: "all 0.4s ease", zIndex: 3 }}
             />
           </div>
-          <div id="test4">
+          <div id="animateBlock4">
             <div className="titleBlock">Блок</div>
             <div>
               Блок – это запись в распределенном реестре о нескольких
@@ -302,10 +300,9 @@ export default function TechnicalSide() {
             <img
               src="/images/technicalSide/groupChain.svg"
               id="groupCardBlock"
-              style={{ transition: "all 0.4s ease", zIndex: 3 }}
             />
           </div>
-          <div id="test5">
+          <div id="animateBlock5">
             <div className="titleBlock">Цепь</div>
             <div>
               Цепь блокчейна неразрывна, поскольку каждый блок содержит
@@ -331,10 +328,9 @@ export default function TechnicalSide() {
             <img
               src="/images/technicalSide/mainer.svg"
               id="mainerBlock"
-              style={{ transition: "all 0.4s ease", zIndex: 3 }}
             />
           </div>
-          <div id="test6">
+          <div id="animateBlock6">
             <div className="titleBlock">Майнеры</div>
             <div>
               Чтобы достичь консенсуса относительно того, какие блоки транзакций
@@ -388,10 +384,9 @@ export default function TechnicalSide() {
             <img
               src="/images/technicalSide/wallet.svg"
               id="wallet"
-              style={{ transition: "all 0.4s ease", zIndex: 3 }}
             />
           </div>
-          <div id="test7">
+          <div id="animateBlock7">
             <div className="titleBlock">Кошелек</div>
             <div>
               Пользователи криптовалют используют специальные программные или
@@ -425,15 +420,9 @@ export default function TechnicalSide() {
             <img
               src="/images/technicalSide/lock.svg"
               id="lock"
-              style={{
-                transition: "all 0.4s ease",
-                zIndex: 4,
-                width: "7vw",
-                marginLeft: "11vw",
-              }}
             />
           </div>
-          <div id="test8">
+          <div id="animateBlock8">
             <div className="titleBlock">Шифрование</div>
             <div>
               Благодаря криптографии, которая лежит в основе криптовалют, и

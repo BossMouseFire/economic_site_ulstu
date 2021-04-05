@@ -8,9 +8,6 @@
     align-items: center;
   }
   .contanerStartText {
-    font-family: "JetBrains Mono";
-    color: white;
-    font-size: 1.5vw;
     width: 40vw;
     margin-left: 5vw;
     display: flex;
@@ -55,8 +52,6 @@
     height: 34vw;
     padding: 2vw;
     border-radius: 10px;
-    color: white;
-    font-family: "JetBrains Mono";
     @media screen and (max-width: 768px) {
       width: 60vw;
       height: 68vw;
@@ -117,6 +112,9 @@
         appearance: none;
         -webkit-appearance: none;
         background: white;
+        @media screen and (max-width: 480px) {
+          font-size: 3.5vw;
+        }
         &:focus {
           outline: 0;
           border-color: #0891e6;
@@ -143,6 +141,9 @@
       &:focus {
         outline: 0;
         border-color: #0891e6;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 3.5vw;
       }
     }
   }
