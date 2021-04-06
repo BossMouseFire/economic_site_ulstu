@@ -45,7 +45,7 @@
   .converterBlock {
     display: flex;
     background: #091029;
-    border: 5px solid rgba(231, 223, 51, 0.5);
+    border: 5px solid #e7df33;
     width: 30vw;
     flex-direction: column;
     justify-content: space-around;
@@ -112,6 +112,7 @@
         appearance: none;
         -webkit-appearance: none;
         background: white;
+        font-size: 1.15vw;
         @media screen and (max-width: 480px) {
           font-size: 3.5vw;
         }
@@ -138,6 +139,7 @@
       padding: 0.5rem 2rem 0.5rem 1rem;
       border: 1px solid #cecece;
       border-radius: 8px;
+      font-size: 1.15vw;
       &:focus {
         outline: 0;
         border-color: #0891e6;

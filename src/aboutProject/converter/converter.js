@@ -14,16 +14,20 @@ export default function Converter() {
     amount,
   };
   const getСurrencyTranslation = () => {
-    //https://pro-api.coinmarketcap.com/v1/tools/price-conversion
-    axios
-      .get("", {
-        params,
-      })
-      .then((response) => {
-        let price = response.data.data.quote[`${currencyTwo[0]}`].price;
-        setResult(price.toFixed(2));
-      })
-      .catch((error) => console.log(error));
+    if (amount == 0) {
+      setResult(0);
+    } else {
+      //https://pro-api.coinmarketcap.com/v1/tools/price-conversion
+      axios
+        .get("", {
+          params,
+        })
+        .then((response) => {
+          let price = response.data.data.quote[`${currencyTwo[0]}`].price;
+          setResult(price.toFixed(2));
+        })
+        .catch((error) => console.log(error));
+    }
   };
   useEffect(() => {
     getСurrencyTranslation();
@@ -42,7 +46,9 @@ export default function Converter() {
         <input
           value={amount !== 0 ? amount : null}
           placeholder="Введите сумму для конвертации..."
-          onChange={(e) => setAmount(e.target.value)}
+          onChange={(e) =>
+            e.target.value ? setAmount(e.target.value) : setAmount(0)
+          }
           onClick={(e) => e.target.focus()}
         />
       </div>

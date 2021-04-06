@@ -9,6 +9,7 @@ export default function ChoiceSection() {
       behavior: "smooth",
     });
   }
+
   return (
     <div>
       <div className="titleChoice">Итак, перейдём к разделам!</div>
