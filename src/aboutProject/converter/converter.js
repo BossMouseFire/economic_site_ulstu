@@ -17,15 +17,22 @@ export default function Converter() {
     if (amount == 0) {
       setResult(0);
     } else {
-      axios
-        .get("https://pro-api.coinmarketcap.com/v1/tools/price-conversion", {
-          params,
-        })
-        .then((response) => {
-          let price = response.data.data.quote[`${currencyTwo[0]}`].price;
+      const rp = require('request-promise');
+      const requestOptions = {
+        method: 'GET',
+        uri: 'https://pro-api.coinmarketcap.com/v1/tools/price-conversion',
+        qs: params,
+        headers: {
+          "CMC_PRO_API_KEY": "3814aac7-4d3f-41e8-8a91-1294e1015c5a",
+        },
+        json: true,
+      };
+      rp(requestOptions).then(response => {
+        let price = response.data.data.quote[`${currencyTwo[0]}`].price;
           setResult(price.toFixed(2));
-        })
-        .catch((error) => console.log(error));
+      }).catch((err) => {
+        console.log('API call error:', err.message);
+      });
     }
   };
   useEffect(() => {
