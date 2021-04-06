@@ -73,6 +73,18 @@
         }
         &:nth-child(2) {
           width: 40vw;
+          .titleBlockchain{
+            font-size: 3vw;
+            width: 100%;
+            line-height: 5vh;
+            margin-top: 0;
+            @media screen and (max-width: 768px) {
+              font-size: 4.5vw;
+            }
+            @media screen and (max-width: 480px) {
+              font-size: 6vw;
+            }
+          }
           @media screen and (max-width: 768px) {
             align-items: center;
             width: 80vw;

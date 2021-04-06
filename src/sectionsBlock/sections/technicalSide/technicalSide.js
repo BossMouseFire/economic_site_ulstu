@@ -199,7 +199,7 @@ export default function TechnicalSide() {
             />
           </div>
           <div id="animateBlock1">
-            <div className="titleBlock">Актив</div>
+            <div className="titleBlockchain">Актив</div>
             <div>
               Актив — это что-то ценное: деньги, имущество, ценные бумаги,
               информация и т.д. Активы могут существовать в реальном мире, как,
@@ -217,7 +217,7 @@ export default function TechnicalSide() {
             />
           </div>
           <div id="animateBlock2">
-            <div className="titleBlock">Транзакция</div>
+            <div className="titleBlockchain">Транзакция</div>
             <div>
               <a href="https://ru-bitcoinwiki-org.turbopages.org/ru.bitcoinwiki.org/s/wiki/Bitcoin_%D1%82%D1%80%D0%B0%D0%BD%D0%B7%D0%B0%D0%BA%D1%86%D0%B8%D1%8F">
                 Транзакция биткойна
@@ -244,7 +244,7 @@ export default function TechnicalSide() {
             />
           </div>
           <div id="animateBlock3">
-            <div className="titleBlock">Учёт транзакций</div>
+            <div className="titleBlockchain">Учёт транзакций</div>
             <div>
               Учёт транзакций – это фиксация всех переходов биткойна или права
               на него от одного человека к другому. В блокчейне реестр
@@ -264,7 +264,7 @@ export default function TechnicalSide() {
         <div className="infoBlockchain">
           <div></div>
           <div>
-            <div className="titleBlock">Консенсус</div>
+            <div className="titleBlockchain">Консенсус</div>
             <div>
               Если некоторые участники сети выключат свои компьютеры и часть
               транзакций у них не отразится или их записи окажутся неверными,
@@ -284,7 +284,7 @@ export default function TechnicalSide() {
             />
           </div>
           <div id="animateBlock4">
-            <div className="titleBlock">Блок</div>
+            <div className="titleBlockchain">Блок</div>
             <div>
               Блок – это запись в распределенном реестре о нескольких
               транзакциях. В нем отражено, кто кому и когда перевел какой объём
@@ -303,7 +303,7 @@ export default function TechnicalSide() {
             />
           </div>
           <div id="animateBlock5">
-            <div className="titleBlock">Цепь</div>
+            <div className="titleBlockchain">Цепь</div>
             <div>
               Цепь блокчейна неразрывна, поскольку каждый блок содержит
               уникальный идентификатор, который связывает его с предыдущим.
@@ -331,7 +331,7 @@ export default function TechnicalSide() {
             />
           </div>
           <div id="animateBlock6">
-            <div className="titleBlock">Майнеры</div>
+            <div className="titleBlockchain">Майнеры</div>
             <div>
               Чтобы достичь консенсуса относительно того, какие блоки транзакций
               действительно должны быть добавлены в цепочку блоков и для того,
@@ -387,7 +387,7 @@ export default function TechnicalSide() {
             />
           </div>
           <div id="animateBlock7">
-            <div className="titleBlock">Кошелек</div>
+            <div className="titleBlockchain">Кошелек</div>
             <div>
               Пользователи криптовалют используют специальные программные или
               аппаратные кошельки. Каждый такой кошелек содержит в себе
@@ -423,7 +423,7 @@ export default function TechnicalSide() {
             />
           </div>
           <div id="animateBlock8">
-            <div className="titleBlock">Шифрование</div>
+            <div className="titleBlockchain">Шифрование</div>
             <div>
               Благодаря криптографии, которая лежит в основе криптовалют, и
               вытекающих из неё методов шифрования, информация о транзакциях и

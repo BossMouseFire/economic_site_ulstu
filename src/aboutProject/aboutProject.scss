@@ -88,8 +88,8 @@
       transform: rotate(-180deg);
       transition: transform 1000ms ease;
       @media screen and (max-width: 768px) {
-        width: 5vw;
-        margin-left: 28vw;
+        width: 6vw;
+        margin-left: 24vw;
       }
       @media screen and (max-width: 480px) {
         width: 8vw;
@@ -115,6 +115,9 @@
         font-size: 1.15vw;
         @media screen and (max-width: 480px) {
           font-size: 3.5vw;
+        }
+        @media screen and (max-width: 768px) {
+          font-size: 2vw;
         }
         &:focus {
           outline: 0;
@@ -143,6 +146,9 @@
       &:focus {
         outline: 0;
         border-color: #0891e6;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 2vw;
       }
       @media screen and (max-width: 480px) {
         font-size: 3.5vw;
