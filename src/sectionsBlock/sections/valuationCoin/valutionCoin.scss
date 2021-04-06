@@ -1,0 +1,52 @@
+.containerValutionCoin {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8vh;
+  div {
+    margin-top: 2vh;
+    @media screen and (max-width: 480px) {
+      margin-top: 5vh;
+    }
+    a {
+      font-style: italic;
+      color: #33bbe7;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 3vw;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 4.8vw;
+  }
+  .valutionBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+    div {
+      width: 48%;
+      @media screen and (max-width: 768px) {
+        width: 100%;
+      }
+      &:nth-child(1) {
+        ul {
+          list-style-image: url("https://crypto-economic-app.herokuapp.com/images/plus.svg");
+          li {
+            margin-top: 2vh;
+          }
+        }
+      }
+
+      &:nth-child(2) {
+        ul {
+          list-style-image: url("https://crypto-economic-app.herokuapp.com/images/minus.svg");
+          li {
+            margin-top: 2vh;
+          }
+        }
+      }
+    }
+  }
+}

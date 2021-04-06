@@ -8,9 +8,6 @@
     align-items: center;
   }
   .contanerStartText {
-    font-family: "JetBrains Mono";
-    color: white;
-    font-size: 1.5vw;
     width: 40vw;
     margin-left: 5vw;
     display: flex;
@@ -48,15 +45,13 @@
   .converterBlock {
     display: flex;
     background: #091029;
-    border: 5px solid rgba(231, 223, 51, 0.5);
+    border: 5px solid #e7df33;
     width: 30vw;
     flex-direction: column;
     justify-content: space-around;
     height: 34vw;
     padding: 2vw;
     border-radius: 10px;
-    color: white;
-    font-family: "JetBrains Mono";
     @media screen and (max-width: 768px) {
       width: 60vw;
       height: 68vw;
@@ -93,8 +88,8 @@
       transform: rotate(-180deg);
       transition: transform 1000ms ease;
       @media screen and (max-width: 768px) {
-        width: 5vw;
-        margin-left: 28vw;
+        width: 6vw;
+        margin-left: 24vw;
       }
       @media screen and (max-width: 480px) {
         width: 8vw;
@@ -117,6 +112,13 @@
         appearance: none;
         -webkit-appearance: none;
         background: white;
+        font-size: 1.15vw;
+        @media screen and (max-width: 480px) {
+          font-size: 3.5vw;
+        }
+        @media screen and (max-width: 768px) {
+          font-size: 2vw;
+        }
         &:focus {
           outline: 0;
           border-color: #0891e6;
@@ -140,9 +142,16 @@
       padding: 0.5rem 2rem 0.5rem 1rem;
       border: 1px solid #cecece;
       border-radius: 8px;
+      font-size: 1.15vw;
       &:focus {
         outline: 0;
         border-color: #0891e6;
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 2vw;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 3.5vw;
       }
     }
   }

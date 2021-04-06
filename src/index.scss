@@ -31,10 +31,23 @@ dd {
 
 /* Выставляем основные настройки по-умолчанию для body */
 body {
-  min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  background: url("https://crypto-economic-app.herokuapp.com/images/backgrounds/1920x20000.png");
+  width: 100%;
+  min-height: 100%;
+  background-size: cover !important;
+  -webkit-background-size: cover !important; 
+  font-family: "JetBrains Mono";
+  color: white;
+  font-size: 1.5vw;
+  @media screen and (max-width: 768px) {
+    background: url("https://crypto-economic-app.herokuapp.com/images/backgrounds/768x30000.png")
+  }
+  @media screen and (max-width: 480px) {
+    background: url("https://crypto-economic-app.herokuapp.com/images/backgrounds/480x40000.png")
+  }
 }
 
 /* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
