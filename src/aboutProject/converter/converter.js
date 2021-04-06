@@ -17,9 +17,8 @@ export default function Converter() {
     if (amount == 0) {
       setResult(0);
     } else {
-      //https://pro-api.coinmarketcap.com/v1/tools/price-conversion
       axios
-        .get("", {
+        .get("https://pro-api.coinmarketcap.com/v1/tools/price-conversion", {
           params,
         })
         .then((response) => {
