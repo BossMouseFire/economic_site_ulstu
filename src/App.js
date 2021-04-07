@@ -2,6 +2,8 @@ import React, { useEffect, useRef } from "react";
 import AboutProject from "./aboutProject/aboutProject";
 import "./App.scss";
 import SectionsBlock from "./sectionsBlock/sectionsBlock";
+
+
 const App = () => {
   const arrowRef = useRef(null);
   useEffect(() => {
@@ -38,7 +40,9 @@ const App = () => {
         <img src="images/arrowUp.svg" />
       </div>
       <SectionsBlock />
-      <div className="endBar"></div>
+      <div className="endBar">
+        <p>© Сайт создан студентами УлГТУ: Абаниным Даниилом, Ильбековым Дмитрием и Курмыза Павлом, 2021 г.</p>
+      </div>
     </div>
   );
 };
