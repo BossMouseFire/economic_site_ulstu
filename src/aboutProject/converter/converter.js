@@ -12,7 +12,7 @@ export default function Converter() {
     if (amount === 0) {
       setResult(0);
     } else {
-      axios.get(`http://localhost:3001/get_price-conversion?id=${currencyOne[0]}&convert_id=${currencyTwo[0]}&amount=${amount}`)
+      axios.get(`https://www.cryptoeconomics.tech/get_price-conversion?id=${currencyOne[0]}&convert_id=${currencyTwo[0]}&amount=${amount}`)
           .then(response => {
               let price = response.data.data.quote[`${currencyTwo[0]}`].price;
               setResult(price.toFixed(2));
