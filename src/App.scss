@@ -1,8 +1,17 @@
 .containerApp {
   .endBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #e7df33;
-    height: 5vh;
+    height: 7vh;
     margin-top: 2vh;
+
+    p{
+      font-size: 1.05vw;
+      color: rgba(9,16,41,1);
+
+    }
   }
   .arrowUp{
     display: none;

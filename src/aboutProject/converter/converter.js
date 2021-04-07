@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import axios from "axios";
+import axios from 'axios'
 import "../aboutProject.scss";
 export default function Converter() {
   const [currencyOne, setCurrencyOne] = useState([1, "Bitcoin"]);
@@ -7,36 +7,23 @@ export default function Converter() {
   const [amount, setAmount] = useState(0);
   const [result, setResult] = useState(0);
   const refreshEl = useRef(null);
-  const params = {
-    CMC_PRO_API_KEY: "3814aac7-4d3f-41e8-8a91-1294e1015c5a",
-    id: currencyOne[0],
-    convert_id: currencyTwo[0],
-    amount,
-  };
-  const getСurrencyTranslation = () => {
-    if (amount == 0) {
+
+  const getCurrencyTranslation = () => {
+    if (amount === 0) {
       setResult(0);
     } else {
-      const rp = require('request-promise');
-      const requestOptions = {
-        method: 'GET',
-        uri: 'https://pro-api.coinmarketcap.com/v1/tools/price-conversion',
-        qs: params,
-        headers: {
-          "CMC_PRO_API_KEY": "3814aac7-4d3f-41e8-8a91-1294e1015c5a",
-        },
-        json: true,
-      };
-      rp(requestOptions).then(response => {
-        let price = response.data.data.quote[`${currencyTwo[0]}`].price;
-          setResult(price.toFixed(2));
-      }).catch((err) => {
-        console.log('API call error:', err.message);
-      });
+      axios.get(`http://localhost:3001/get_price-conversion?id=${currencyOne[0]}&convert_id=${currencyTwo[0]}&amount=${amount}`)
+          .then(response => {
+              let price = response.data.data.quote[`${currencyTwo[0]}`].price;
+              setResult(price.toFixed(2));
+          })
+          .catch(error => {
+            console.log(error);
+          })
     }
   };
   useEffect(() => {
-    getСurrencyTranslation();
+    getCurrencyTranslation();
   }, [currencyOne, currencyTwo, amount]);
   const refreshCurrency = () => {
     const element = refreshEl.current;
