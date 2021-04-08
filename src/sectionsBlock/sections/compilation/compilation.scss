@@ -7,11 +7,12 @@
   }
   @media screen and (max-width: 480px) {
     font-size: 4.8vw;
+    margin-top: 4vh;
   }
   div {
     margin-top: 2vh;
     @media screen and (max-width: 480px) {
-      margin-top: 5vh;
+      margin-top: 3vh;
     }
     ul {
       list-style-image: url("https://crypto-economic-app.herokuapp.com/images/bitcoinList.svg");

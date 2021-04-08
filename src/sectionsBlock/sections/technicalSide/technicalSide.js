@@ -88,7 +88,7 @@ export default function TechnicalSide() {
         window.scrollY < positionLock * 0.95
       ) {
         wallet.style.transform = `translate(0, ${
-          (window.pageYOffset - positionWallet) * 1.3
+          (window.pageYOffset - positionWallet) * 1.2
         }px)`;
       }
     }
