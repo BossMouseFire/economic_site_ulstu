@@ -34,7 +34,9 @@
       width: 85vw;
     }
     .sectionBlock {
-      border: 5px solid;
+      &:nth-child(1){
+        text-align: center;
+      }
       border: 5px solid;
       border-image-source: linear-gradient(
         180deg,

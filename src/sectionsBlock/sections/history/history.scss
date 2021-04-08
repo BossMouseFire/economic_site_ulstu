@@ -33,7 +33,7 @@
       &:nth-child(9),
       &:nth-child(12),
       &:nth-child(13) {
-        margin-top: 5vh;
+        margin-top: 3vh;
       }
     }
     a {
@@ -46,5 +46,6 @@
   }
   @media screen and (max-width: 480px) {
     font-size: 4.8vw;
+    margin-top: 4vh;
   }
 }

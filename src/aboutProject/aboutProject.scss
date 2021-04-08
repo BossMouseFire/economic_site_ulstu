@@ -113,11 +113,11 @@
         -webkit-appearance: none;
         background: white;
         font-size: 1.15vw;
-        @media screen and (max-width: 480px) {
-          font-size: 3.5vw;
-        }
         @media screen and (max-width: 768px) {
           font-size: 2vw;
+        }
+        @media screen and (max-width: 480px) {
+          font-size: 3.5vw;
         }
         &:focus {
           outline: 0;
@@ -153,6 +153,22 @@
       @media screen and (max-width: 480px) {
         font-size: 3.5vw;
       }
+    }
+    .errorInput{
+      border: 2px solid red !important;
+    }
+    .errorLabel {
+      color: red;
+      font-size: 1vw;
+      @media screen and (max-width: 768px) {
+        font-size: 2vw;
+      }
+      @media screen and (max-width: 480px) {
+        font-size: 3vw;
+      }
+    }
+    .trueLabel{
+      display: none;
     }
   }
 }

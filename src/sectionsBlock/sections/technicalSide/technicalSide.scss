@@ -20,7 +20,7 @@
       &:nth-child(5),
       &:nth-child(7),
       &:nth-child(8) {
-        margin-top: 5vh;
+        margin-top: 3vh;
       }
     }
     a {
@@ -33,6 +33,7 @@
   }
   @media screen and (max-width: 480px) {
     font-size: 4.8vw;
+    margin-top: 4vh;
   }
   .blockchainBlock {
     display: flex;

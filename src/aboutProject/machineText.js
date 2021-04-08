@@ -48,7 +48,7 @@ export default function MachineText({ arrayText, className }) {
         }
       }
       typeLine(line, count);
-    }, getRandomNumber(300) * 1.5);
+    }, getRandomNumber(150) * 1.5);
   };
 
   const getRandomNumber = (max) => {

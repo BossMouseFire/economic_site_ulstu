@@ -16,7 +16,7 @@
       &:nth-child(4),
       &:nth-child(5)
  {
-        margin-top: 5vh;
+        margin-top: 3vh;
       }
     }
     a {
@@ -29,5 +29,6 @@
   }
   @media screen and (max-width: 480px) {
     font-size: 4.8vw;
+    margin-top: 4vh;
   }
 }
