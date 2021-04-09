@@ -14,7 +14,7 @@ export default function ChoiceSection() {
     <div>
       <div className="titleChoice">Итак, перейдём к разделам!</div>
       <div className="choiceSection">
-        <div className="sectionBlock" onClick={() => selectBlock(".containerBackground")}>Конвертер валют</div>
+        <div className="sectionBlock" onClick={() => selectBlock(".containerBackground")}>Инструмент конвертации валют</div>
         <div className="sectionBlock" onClick={() => selectBlock(".containerExplanation")}>Что такое криптовалюта?</div>
         <div className="sectionBlock" onClick={() => selectBlock(".containerHistory")}>История развития криптовалют</div>
         <div className="sectionBlock" onClick={()=> selectBlock(".containerTechnicalSide")}>Как работают криптовалюты?</div>
