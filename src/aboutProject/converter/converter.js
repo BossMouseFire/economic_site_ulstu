@@ -30,7 +30,7 @@ export default function Converter() {
   };
   const inputHandler = (e) => {
     const element = e.target.value;
-    let checkElement = /^[1-9]\d{0,5}$/.test(element);
+    let checkElement = /^[1-9]\d{0,8}$/.test(element);
     if(!checkElement){
       inputRef.current.classList.add("errorInput");
       LabelRef.current.classList.add("errorLabel");
